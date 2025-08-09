@@ -1,16 +1,13 @@
 function convertidorTemp(tempCelsius) {
   return tempCelsius*9/5 + 32
 }
-
 function resolvedor(a, b, c, signo) {
   // signo es +1 para positivo o -1 para negativo
   return (-b + signo*(b**2 - 4*a*c)**0.5)/(2*a)
 }
-
 function mejorParidad(num) {
   return !(num % 2)
 }
-
 function peorParidad(n) {
   if (n == 0) return true;
   if (n == 1) return false;
